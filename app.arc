@@ -6,7 +6,7 @@ begin-app
 	method get
 	src /api
 
-	method get
+	method post
 	src /api
 
 @http

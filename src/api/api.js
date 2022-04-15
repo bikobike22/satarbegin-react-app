@@ -1,6 +1,6 @@
 
 
-function http(req) {
+function get(req) {
 
     return {
   statusCode: 201,
@@ -19,4 +19,14 @@ function post(req) {
   body: JSON.stringify({ ok: true }),
 }
 }
-export default{ http , post}
+
+function remove(req) {
+
+    return {
+  statusCode: 201,
+  headers: { 'content-type': 'application/json; charset=utf8' },
+  body: JSON.stringify({ ok: true }),
+}
+}
+
+export default{ get , post, remove}
