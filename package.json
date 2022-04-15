@@ -41,5 +41,11 @@
     "tap-spec": "^5.0.0",
     "tape": "^5.5.3",
     "tiny-json-http": "^7.4.2"
+  },
+  "arc": {
+    "app": "myapp",
+    "http": [
+      [ "get", "/api" ]
+    ]
   }
 }
