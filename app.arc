@@ -6,10 +6,6 @@ begin-app
 	method get
 	src /api
 
-
-@app
-begin-app
-
 @http
 get /user
 
