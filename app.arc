@@ -7,6 +7,12 @@ begin-app
 	src /api
 
 
+@app
+myapp
+
+@http
+get /api
+
 @static
 folder build
 spa true
