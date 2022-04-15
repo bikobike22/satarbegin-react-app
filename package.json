@@ -44,9 +44,9 @@
   },
   "arc": {
     "app": "begin-app",
-    "http": [
-      [ "get", "/api" ],
-      [ "post", "/api" ]
-    ]
+    "static": {
+      "folder": "build",
+      "spa":true
+    }
   }
 }

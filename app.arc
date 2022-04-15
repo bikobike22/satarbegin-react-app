@@ -1,19 +1,20 @@
 @app
 begin-app
 
-@http
-/api
-	method get
-	src /api
-
-
-/api	
-	method post
-	src /api
-
-
-
-
 @static
 folder build
-spa true
+
+@http
+get /api/news
+get /api/fetch-news
+
+@tables
+data
+    scopeID *String
+	dataID **String
+	ttl TTL
+
+
+
+
+
