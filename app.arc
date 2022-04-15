@@ -5,6 +5,8 @@ begin-app
 /api
 	method get
 	src /api
+	method get
+	src /api/user
 
 @static
 folder build
