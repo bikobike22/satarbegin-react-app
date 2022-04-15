@@ -4,6 +4,8 @@ begin-app
 @static
 folder build
 
+
+
 @http
 get /api/news
 get /api/fetch-news
