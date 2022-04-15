@@ -8,10 +8,10 @@ begin-app
 
 
 @app
-myapp
+begin-app
 
 @http
-get /api
+get /user
 
 @static
 folder build

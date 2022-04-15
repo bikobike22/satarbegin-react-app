@@ -43,9 +43,9 @@
     "tiny-json-http": "^7.4.2"
   },
   "arc": {
-    "app": "myapp",
+    "app": "begin-app",
     "http": [
-      [ "get", "/api" ]
+      [ "get", "/user" ]
     ]
   }
 }
