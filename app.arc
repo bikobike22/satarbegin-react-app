@@ -7,9 +7,9 @@ begin-app
 	src /api
 
 @http
-/api
-    method post
-	src /api
+/person
+    method get
+	src /person
 
 @static
 folder build
