@@ -7,7 +7,7 @@ begin-app
 	src /api
 
 @http
-get /user
+get /api
 
 @static
 folder build
