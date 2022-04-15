@@ -29,4 +29,3 @@ function remove(req) {
 }
 }
 
-export default{ get , post, remove}
