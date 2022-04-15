@@ -45,7 +45,8 @@
   "arc": {
     "app": "begin-app",
     "http": [
-      [ "get", "/user" ]
+      [ "get", "/api" ],
+      [ "post", "/api" ]
     ]
   }
 }
