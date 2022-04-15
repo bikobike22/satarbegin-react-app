@@ -9,7 +9,7 @@ begin-app
 @http
 /api
 	method get
-	src /api/user
+	src /user
 
 @static
 folder build
