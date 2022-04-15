@@ -5,8 +5,8 @@ begin-app
 /api
 	method get
 	src /api
-	
-@http
+
+
 /api	
 	method post
 	src /api
