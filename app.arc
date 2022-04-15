@@ -2,7 +2,7 @@
 begin-app
 
 @http
-/api
+/user
 	method get
 	src /user
 
