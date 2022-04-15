@@ -6,7 +6,8 @@ begin-app
 	method get
 	src /api
 
-
+@http
+get /user
 
 @static
 folder build
