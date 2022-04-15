@@ -6,6 +6,11 @@ begin-app
 	method get
 	src /api
 
+@http
+/api/user
+	method get
+	src /api/user
+
 @static
 folder build
 spa true
