@@ -2,9 +2,11 @@
 begin-app
 
 @http
-/user
+/api
 	method get
-	src /user
+	src /api
+	method post
+	src /api
 
 
 
