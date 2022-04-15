@@ -5,10 +5,11 @@ begin-app
 /api
 	method get
 	method post
-	method delete
 	src /api
-
-
+	
+/api
+   method delete
+   src /api
 
 @static
 folder build
