@@ -3,13 +3,10 @@
 function http(re) {
 
     return {
-        headers: {
-            'content-type': 'application/json; charset=utf8',
-            'cache-control': 'no-cache, no-store, must-revalidate, max-age=0, s-maxage=0'
-        },
-        statusCode: 200,
-        body: JSON.stringify([{scopeID: '123', dataID: '786'}])
-    }
+  statusCode: 201,
+  headers: { 'content-type': 'application/json; charset=utf8' },
+  body: JSON.stringify({ ok: true }),
+}
 }
 
 export default http
