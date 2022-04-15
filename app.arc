@@ -4,9 +4,12 @@ begin-app
 @http
 /api
 	method get
-	method post
 	src /api
-	
+
+	method get
+	src /api
+
+@http
 /api
    method delete
    src /api
